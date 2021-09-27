@@ -24,6 +24,17 @@
   margin: 5px;
   width: 80%;
   height: 80%;
+  animation-name: dropdown;
+  animation-duration: 1s;
+}
+
+@keyframes dropdown {
+  from {
+    transform: translateY(-400px);
+  }
+  to {
+    transform: translateY(0px);
+  }
 }
 
 /* TODO: make pieces red/blue,  depending on player 1/2 piece */
